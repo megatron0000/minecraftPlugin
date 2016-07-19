@@ -1,0 +1,10 @@
+name: Bau De Laplace
+main: net23.net.baudelaplace.bau.Bau
+version: 0.0.1
+author: Vitor
+website: baudelaplace.net23.net
+
+commands:
+  basic:
+    aliases: "*"
+    usage: "Uso: /<command> [param. de config.] ou /<command> [param.de config.] [novo valor]"
