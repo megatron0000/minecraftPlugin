@@ -13,10 +13,10 @@ public class BlockBreak implements Listener {
 	@EventHandler
 	public void onBlockBreak(BlockBreakEvent event) {
 		Player player = event.getPlayer();
-
+		
 		Block block = event.getBlock();
 		Material material = block.getType();
-
+		
 		if (material != Material.GRASS) {
 			event.setCancelled(true);
 			player.sendMessage(ChatColor.RED + "Você só pode quebrar grama >_< !!");

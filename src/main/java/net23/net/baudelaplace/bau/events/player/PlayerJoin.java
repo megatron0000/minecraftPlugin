@@ -9,8 +9,8 @@ import org.bukkit.event.player.PlayerJoinEvent;
 import net.minecraft.server.v1_10_R1.IChatBaseComponent.ChatSerializer;
 import net.minecraft.server.v1_10_R1.PacketPlayOutTitle;
 import net.minecraft.server.v1_10_R1.PacketPlayOutTitle.EnumTitleAction;
-import net.minecraft.server.v1_10_R1.PlayerConnection;
 import net23.net.baudelaplace.bau.Bau;
+import net.minecraft.server.v1_10_R1.PlayerConnection;
 
 public class PlayerJoin implements Listener {
 
