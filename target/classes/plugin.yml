@@ -1,6 +1,6 @@
 name: Bau_De_Laplace
 main: net23.net.baudelaplace.bau.Bau
-version: 0.0.1
+version: 0.1.0
 author: Vitor
 website: baudelaplace.net23.net
 
@@ -10,3 +10,6 @@ commands:
     usage: "Uso: /<command> [param. de config.] ou /<command> [param.de config.] [novo valor]"
   getBau:
     usage: "Uso: /<command>"
+  warp:
+    description: "Cria, deleta ou transporta para posições fixas denominadas 'warp'"
+    usage: "Uso: /<command> [nome_do_warp | set nome_do_warp | del nome_do_warp]"

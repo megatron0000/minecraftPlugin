@@ -22,16 +22,23 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+	<classpathentry kind="lib" path="D:/Games/Minecraft/Bukkit Server (Premade) 1.9.4/craftbukkit-1.10-R0.1-SNAPSHOT-latest.jar" sourcepath="D:/Programming/Bukkit-Bukkit-1.7.9-R0.2-13-gf210234.zip">
 		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="javadoc_location" value="jar:file:/D:/Programming/Bukkit-Bukkit-1.7.9-R0.2-13-gf210234.zip!/"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="D:/Games/Minecraft/Bukkit Server (Premade) 1.9.4/craftbukkit-1.10-R0.1-SNAPSHOT-latest.jar"/>
+	<classpathentry kind="lib" path="D:/Programming/JAVA-external-libraries/httpcomponents-core-4.4.5/lib/httpcore-4.4.5.jar"/>
+	<classpathentry kind="lib" path="D:/Programming/JAVA-external-libraries/httpcomponents-core-4.4.5/lib/httpcore-ab-4.4.5.jar"/>
+	<classpathentry kind="lib" path="D:/Programming/JAVA-external-libraries/httpcomponents-core-4.4.5/lib/httpcore-nio-4.4.5.jar"/>
+	<classpathentry kind="lib" path="D:/Programming/JAVA-external-libraries/httpcomponents-core-4.4.5/lib/commons-cli-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/Programming/JAVA-external-libraries/httpcomponents-client-4.5.2/lib/httpclient-4.5.2.jar"/>
+	<classpathentry kind="lib" path="D:/Programming/JAVA-external-libraries/httpcomponents-client-4.5.2/lib/httpclient-cache-4.5.2.jar"/>
+	<classpathentry kind="lib" path="D:/Programming/JAVA-external-libraries/httpcomponents-client-4.5.2/lib/httpcore-4.4.4.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

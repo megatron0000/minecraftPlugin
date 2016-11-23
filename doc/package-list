@@ -1,1 +1,5 @@
+net23.net.baudelaplace.bau.commands
+net23.net.baudelaplace.bau.events.block
+net23.net.baudelaplace.bau.events.player
+net23.net.baudelaplace.bau.teleport
 net23.net.baudelaplace.bau.utils

@@ -9,14 +9,25 @@ public class PlayerWarpEvent extends Event {
 
     Player p;
     Location l;
+    String warpName;
     
-    public PlayerWarpEvent(Player p, Location l) {
+    // Os métodos listados abaixo são invenção minha:
+    // > Construtor
+    // > getPlayer()
+    // > getWarpName()
+    // > getLocation()
+    public PlayerWarpEvent(Player p, Location l, String warpName) {
 	this.p = p;
 	this.l = l;
+	this.warpName = warpName;
     }
     
     public Player getPlayer() {
 	return p;
+    }
+    
+    public String getWarpName() {
+	return warpName;
     }
     
     public Location getLocation() {
