@@ -1,5 +1,6 @@
 package net23.net.baudelaplace.bau.commands;
 
+import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -10,6 +11,11 @@ import net23.net.baudelaplace.bau.utils.HttpMessenger;
 public class GetBau implements CommandExecutor {
 
     public boolean onCommand(CommandSender sender, Command cmd, String label, String args[]) {
+	// Só usuários com permissão
+	if (!sender.hasPermission("getbau")) {
+	    sender.sendMessage(ChatColor.RED + "Você não tem permissão para usar este comando !");
+	}
+	
 	// Deprecated
 	// String serverResponse = get("http://localhost:3000/?test=Hola");
 

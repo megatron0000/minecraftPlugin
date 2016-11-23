@@ -19,7 +19,6 @@ public class Warp implements CommandExecutor {
 
     @Override
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
-
 	SettingsManager settings = SettingsManager.getInstance();
 	settings.setup(Bukkit.getPluginManager().getPlugin("Bau_De_Laplace"));
 

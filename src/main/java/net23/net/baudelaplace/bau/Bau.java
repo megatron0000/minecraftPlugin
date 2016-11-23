@@ -1,7 +1,6 @@
 package net23.net.baudelaplace.bau;
 
 import org.bukkit.Bukkit;
-import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -9,6 +8,7 @@ import net23.net.baudelaplace.bau.commands.Basic;
 import net23.net.baudelaplace.bau.commands.GetBau;
 import net23.net.baudelaplace.bau.eventListeners.block.BlockBreak;
 import net23.net.baudelaplace.bau.eventListeners.player.PlayerChat;
+import net23.net.baudelaplace.bau.eventListeners.player.PlayerInteract;
 import net23.net.baudelaplace.bau.eventListeners.player.PlayerJoin;
 import net23.net.baudelaplace.bau.teleport.Warp;
 import net23.net.baudelaplace.bau.utils.SettingsManager;
@@ -46,6 +46,7 @@ public final class Bau extends JavaPlugin {
 	pm.registerEvents(new BlockBreak(), this);
 	pm.registerEvents(new PlayerChat(), this);
 	pm.registerEvents(new PlayerJoin(this), this);
+	pm.registerEvents(new PlayerInteract(), this);
     }
 
 }

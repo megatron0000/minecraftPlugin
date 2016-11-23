@@ -1,6 +1,6 @@
 name: Bau_De_Laplace
 main: net23.net.baudelaplace.bau.Bau
-version: 0.1.0
+version: 0.1.1
 author: Vitor
 website: baudelaplace.net23.net
 
@@ -11,5 +11,13 @@ commands:
   getBau:
     usage: "Uso: /<command>"
   warp:
-    description: "Cria, deleta ou transporta para posições fixas denominadas 'warp'"
+    description: "Cria, deleta ou transporta para posicoes fixas denominadas 'warp'"
     usage: "Uso: /<command> [nome_do_warp | set nome_do_warp | del nome_do_warp]"
+    
+permissions:
+  getbau:
+    default: op
+    description: "Permissao para usar o comando getbau"
+  healSign:
+    default: op
+    description: "Quem pode colocar Signs geradoras de vida infinita"
